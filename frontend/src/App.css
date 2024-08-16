@@ -1,0 +1,84 @@
+#root {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  margin: 0px 0px 20px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+.chat-container {
+  height: 66vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.user {
+  background-color: #444444;
+}
+
+.bot {
+  background-color: #333333;
+}
+
+.message-indicator {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  word-wrap: break-word;
+}
+
+.message-text pre {
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.message-text code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
